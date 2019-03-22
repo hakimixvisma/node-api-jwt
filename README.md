@@ -2,7 +2,12 @@
 
 ## Authentication
 
-__GET__ - `http://localhost:3000/authenticate`
+__GET__  `http://localhost:3000/authenticate`
+
+__Body__ `{
+    "username": "mustafa",
+    "password": 123
+}` 
 
 __Response__ `{
     "message": "authentication done ",
